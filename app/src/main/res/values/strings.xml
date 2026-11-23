@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Marshmallow Land</string>
+    <string name="app_version">5.0</string>
+    <string name="mland">Marshmallow Land</string>
+    <string name="taptoplay">TAP TO PLAY</string>
+    <string name="title_activity_about">About</string>
+    <string name="github_url">Source code: https://github.com/dismal002/mland</string>
+    <string name="license_notice">This app is free software, licensed under the GNU General Public License v3.0 (GPLv3).</string>
+</resources>

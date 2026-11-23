@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:isGame="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.Translucent">
+
+        <activity
+            android:name="com.dismal.marshmallowland.MainActivity"
+            android:exported="true"
+            android:hardwareAccelerated="true"
+            android:label="@string/mland"
+            android:theme="@style/AppTheme.Translucent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="com.android.internal.category.PLATLOGO" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.dismal.marshmallowland.About"
+            android:exported="false"
+            android:label="@string/title_activity_about"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>
